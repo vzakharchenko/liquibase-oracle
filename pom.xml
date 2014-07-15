@@ -4,7 +4,7 @@
     <groupId>org.liquibase.ext</groupId>
     <artifactId>liquibase-oracle</artifactId>
     <name>Liquibase Oracle Extensions</name>
-    <version>3.2-SNAPSHOT</version>
+    <version>3.3.0-ECLM-SNAPSHOT</version>
 
      <licenses>
         <license>
@@ -14,7 +14,7 @@
     </licenses>
 
     <properties>
-        <oracle.version>11.2.0.3</oracle.version>
+        <oracle.version>1.0</oracle.version>
         <slf4j.version>1.7.5</slf4j.version>
         <junit.version>4.11</junit.version>
     </properties>
@@ -22,7 +22,7 @@
         <dependency>
             <groupId>org.liquibase</groupId>
             <artifactId>liquibase-core</artifactId>
-            <version>3.2.0</version>
+            <version>3.3.0-ECLM-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
@@ -57,12 +57,12 @@
         <!--<scope>test</scope>-->
         <!--</dependency>-->
         <!-- Download from http://www.oracle.com/technetwork/database/enterprise-edition/jdbc-112010-090769.html -->
-        <dependency>
-            <groupId>com.oracle</groupId>
-            <artifactId>ojdbc6</artifactId>
-            <version>${oracle.version}</version>
-            <scope>test</scope>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.oracle</groupId>-->
+            <!--<artifactId>ojdbc6</artifactId>-->
+            <!--<version>${oracle.version}</version>-->
+            <!--<scope>test</scope>-->
+        <!--</dependency>-->
     </dependencies>
     <description>Some tags to work on Oracle DB.</description>
     <url>http://liquibase.jira.com/wiki/display/CONTRIB/Oracle+Extensions</url>
